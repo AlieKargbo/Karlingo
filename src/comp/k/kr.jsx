@@ -65,17 +65,16 @@ export default function md() {
   return (
     <>
         {result?<></>:<>
-           <div className="">
-            <div className="flex justify-center mt-16">
+            <div className="flex justify-center mt-8">
                 {/* <h2>Which one is {quest} </h2> */}
-                <div className=" w-6/12 text-2xl font-bold">
+                <div className=" w-6/12 text-base md:text-2xl font-bold">
                     <h2>{index+1}. {question.question}</h2>
                 </div>
                 
             </div>
-            <div className="w-full flex justify-center mt-16 ">
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 p-6">
-                    <div className="bg-slate-50 h-60 rounded-md border-2" ref={Option1} onClick={(e)=>{checkAns(e,1)}}>
+            <div className="w-full flex justify-center mt-2 ">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 p-4">
+                    <div className="bg-slate-50 h-56 rounded-md border-2" ref={Option1} onClick={(e)=>{checkAns(e,1)}}>
                     {/* <div className=" sm:h-28 sm:w-12 "> */}
                         <span className="text-lg pl-4 pt-6">1</span>
                         
@@ -84,17 +83,16 @@ export default function md() {
                             
                     {/* </div> */}
                     </div>
-                    <div className="bg-slate-50 h-60  rounded-md border-2" ref={Option2} onClick={(e)=>{checkAns(e,2)}}>
+                    <div className="bg-slate-50 h-56  rounded-md border-2" ref={Option2} onClick={(e)=>{checkAns(e,2)}}>
                         <span className="text-lg pl-4 pt-6" >2</span>
                         <div className="flex justify-center font-semibold mt-24" onClick={noClick}>{question.option2}</div>
                     </div>
-                    <div className="bg-slate-50 h-60 w-48 rounded-md border-2" ref={Option3} onClick={(e)=>{checkAns(e,3)}}>
+                    <div className="bg-slate-50 h-56 w-48 rounded-md border-2" ref={Option3} onClick={(e)=>{checkAns(e,3)}}>
                         <span className="text-lg pl-4 pt-6">3</span>
                         <div className="flex justify-center font-semibold mt-24" onClick={noClick}>{question.option3}</div>
                     </div>
                 </div>
             </div>
-        </div>
         </>}
         {result?<>
             <div className="h-screen flex items-center p-10 bg-gray-50 justify-center">
@@ -103,9 +101,9 @@ export default function md() {
             </div>
         </>:<></>}
 
-        <div className="bg-gray-50  w-full fixed bottom-0 flex flex-col justify-around  p-10">
+        <div className="bg-gray-50  w-full fixed bottom-0 flex flex-col justify-around  p-4">
             <div className="flex justify-center">
-                <div className=" w-6/12 flex justify-between md:justify-between">
+                <div className=" flex justify-between md:justify-between">
                     <Link to="/" className='h-16 w-32 rounded-lg grid content-center justify-center bg-slate-100'
                     >
                         Exit
