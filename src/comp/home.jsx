@@ -10,7 +10,7 @@ function Home() {
     <>
     <Navbar />
     <div className="flex justify-center font-roboto font-bold mt-56 ">
-      <h2>Learn ethnic languages with ease</h2>
+      <h2>Learn local languages with ease</h2>
     </div>
     <div className="flex justify-center flex-row space-x-4 md:w-full mt-12">
       <div className="bg-blue-500 font-bold py-2 px-4 rounded ">

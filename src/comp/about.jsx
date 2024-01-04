@@ -20,8 +20,8 @@ function Footer() {
                         <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Founder</div>
                         <h1 className='text-lg font-bond'>Alie Kargbo</h1>
                         <div className='text-lg mb-8 font-light '>
-                            <p>Karlingo is a web platform which helps users to learn african ethenic languages.</p>
-                            <p>Currently support three languages as displayed on the home.</p>
+                            <p>Karlingo is a web platform which help users to learn african local languages.</p>
+                            <p>Currently support three languages as displayed on the home page.</p>
                             <p>More languages are on the way</p>
                             </div>
                         <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
