@@ -1,13 +1,13 @@
 export const data = [
     {
-        question: "Which one is these is 'Hurry Up' ",
+        question: "How do you say 'Hurry Up'",
         option1: "Bʌsər",
         option2: "Rʌ Fɔy",
         option3: "KeKe",
         ans: 1
     },
     {
-        question: "Which of these is the 'Peanut'",
+        question: "How do you say 'Peanut'",
         option1: "Mɔt",
         option2: "Mʌ Kʌntər",
         option3: "Ro Kaŋ",
@@ -35,7 +35,7 @@ export const data = [
         ans: 3
     },
     {
-        question: "Which of these is th 'I am going home'",
+        question: "How do you say 'I am going home'",
         option1: "I Kɔnɛ Ro Seth",
         option2: "Man",
         option3: "Kʌ Gbara",
@@ -63,7 +63,7 @@ export const data = [
         ans: 2
     },
     {
-        question: "How do you say 'Tommorow'",
+        question: "How do you say 'Tomorrow'",
         option1: "Ninʌŋ",
         option2: "Wath runi",
         option3: "Yathri",

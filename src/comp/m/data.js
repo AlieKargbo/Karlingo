@@ -1,6 +1,6 @@
 export const data = [
     {
-        question: "Which one is these is 'Woman/lady",
+        question: "How do you say 'Woman/lady",
         option1: "Ha",
         option2: "Ngor",
         option3: "Nyapoi",
@@ -28,7 +28,7 @@ export const data = [
         ans: 2
     },
     {
-        question: "How do you say 'today'",
+        question: "How do you say 'Today'",
         option1: "Hini",
         option2: "Keke",
         option3: "Ha",

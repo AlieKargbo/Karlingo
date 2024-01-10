@@ -33,38 +33,45 @@ export default function md() {
         
     }
 
-    const next = () => {
-        if (lock===true) {
-            if (index == data.length -1) {
-                setResult(true);
-                return 0;
+        const next = () => {
+            if (lock===true) {
+                if (index == data.length -1) {
+                    setResult(true);
+                    return 0;
+                }
+                setIndex(++index);
+                setQuestion(data[index]);
+                setLock(false);
+                option_array.map((option)=>{
+                    option.current.classList.remove("wrong")
+                    option.current.classList.remove("correct")
+                    return null
+                })
             }
-            setIndex(++index);
-            setQuestion(data[index]);
-            setLock(false);
-            option_array.map((option)=>{
-                option.current.classList.remove("wrong")
-                option.current.classList.remove("correct")
-                return null
-            })
         }
-    }
 
-    const reset = () => {
-        setIndex(0);
-        setQuestion(data[0]);
-        setScore(0);
-        setLock(false)
-        setResult(false)
-    }
+        const reset = () => {
+            setIndex(0);
+            setQuestion(data[0]);
+            setScore(0);
+            setLock(false)
+            setResult(false)
+        }
 
-    const noClick = (e) => {
-        e.stopPropagation()
-    }
+        const noClick = (e) => {
+            e.stopPropagation()
+        }
 
-  return (
-    <>
+    return (
+        <>
         {result?<></>:<>
+            {/* <progress 
+                className={styles.progressBar}
+                value={currentValue} 
+                max={maxValue}
+            >
+                {currentValue}%
+            </progress> */}
             <div className="flex justify-center mt-8">
                 {/* <h2>Which one is {quest} </h2> */}
                 <div className=" w-6/12 text-base md:text-2xl font-bold">
@@ -94,6 +101,7 @@ export default function md() {
                 </div>
             </div>
         </>}
+        
         {result?<>
             <div className="h-screen flex items-center p-10 bg-gray-50 justify-center">
                 <h2>You Scored {score} out of {data.length}</h2>

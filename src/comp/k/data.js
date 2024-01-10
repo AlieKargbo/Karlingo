@@ -1,13 +1,13 @@
 export const data = [
     {
-        question: "Which of these is 'Walk' ",
+        question: "How do you say 'Walk' ",
         option1: "Waka",
         option2: "Gladi",
         option3: "Santɛm",
         ans: 1
     },
     {
-        question: "Which of these is the 'Window'",
+        question: "How do you say 'Window'",
         option1: "Winda",
         option2: "Pikin",
         option3: "Os",
@@ -35,7 +35,7 @@ export const data = [
         ans: 3
     },
     {
-        question: "Which of these is th 'Stand up'",
+        question: "How do you say 'Stand up'",
         option1: "Timap",
         option2: "Man",
         option3: "Padi kusheh-O",
@@ -56,7 +56,7 @@ export const data = [
         ans: 3
     },
     {
-        question: "How do you say 'Trouser'",
+        question: "How do you say 'Trousers'",
         option1: "Tide",
         option2: "Trɔsis",
         option3: "Krep",
@@ -65,7 +65,7 @@ export const data = [
     {
         question: "How do you say 'What are you doing?'",
         option1: "Ala",
-        option2: "Wetin Yu De Du?",
+        option2: "Wetin Yu De Du",
         option3: "Mɔt",
         ans: 2
     },
