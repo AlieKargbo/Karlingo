@@ -97,7 +97,7 @@ function Welcome() {
       <div className="flex justify-center p-5 space-x-3">
         <button onClick={updateAndNavigate}
         >
-          <div className='bg-white h-56 w-48 rounded-md border-4 hover:bg-slate-200 p-4 md:p-6'>
+          <div className='bg-white h-56 w-24 md:w-48 rounded-md border-4 hover:bg-slate-200 p-4 md:p-6'>
             <div className="my-20">
               <p className='font-mono text-2xl text-center'>Krio</p>
             </div>
@@ -105,7 +105,7 @@ function Welcome() {
         </button>
         <button onClick={lag2}
         >
-          <div className='bg-white h-56 w-48 rounded-md border-4 hover:bg-slate-200 p-4 md:p-6'>
+          <div className='bg-white h-56 w-24 md:w-48 rounded-md border-4 hover:bg-slate-200 p-4 md:p-6'>
             <div className="my-20">
               <p className='font-mono text-2xl text-center'>Temne</p>
             </div>
@@ -113,7 +113,7 @@ function Welcome() {
         </button>
         <button onClick={lag3}
         >
-          <div className='bg-white h-56 w-48 rounded-md border-4 hover:bg-slate-200 p-4 md:p-6'>
+          <div className='bg-white h-56 w-24 md:w-48 rounded-md border-4 hover:bg-slate-200 p-4 md:p-6'>
             <div className="my-20">
               <p className='font-mono text-2xl text-center'>Mende</p>
             </div>
