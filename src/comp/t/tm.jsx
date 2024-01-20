@@ -1,7 +1,7 @@
 
 import "./page.css"
 import { useRef, useState } from 'react'
-import { data } from './data'
+import { data } from './data1'
 import { Link } from "react-router-dom"
 
 export default function tm() {
@@ -101,7 +101,7 @@ export default function tm() {
             </div>
         </>:<></>}
 
-        <div className="bg-gray-50  w-full fixed bottom-0 flex flex-col justify-around  p-4">
+        <div className="bg-gray-50  w-full fixed bottom-0 flex flex-col justify-around  p-4 border-t-4">
             <div className="flex justify-center">
                 <div className="  flex justify-between ">
                     <Link to="/" className='h-16 w-32 rounded-lg grid content-center justify-center bg-slate-100'

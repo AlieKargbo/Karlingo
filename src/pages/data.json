@@ -1,0 +1,165 @@
+
+{
+    "krio": {
+        "level1": [{
+            "question": "How do you say 'Walk' ",
+            "option1": "Waka",
+            "option2": "Gladi",
+            "option3": "Santɛm",
+            "ans": 1
+        },
+        {
+            "question": "How do you say 'Window'",
+            "option1": "Winda",
+            "option2": "Pikin",
+            "option3": "Os",
+            "ans": 1
+        },
+        {
+            "question": "How do you say 'I am going home'",
+            "option1": "Nɛt",
+            "option2": "A De Go Na Os",
+            "option3": "Kɔmɔt na rod",
+            "ans": 2
+        },
+        {
+            "question": "How do you say 'I know'",
+            "option1": "Lɛf",
+            "option2": "A Sabi",
+            "option3": "Timap",
+            "ans": 2
+        },
+        {
+            "question": "How do you say 'I am full'",
+            "option1": "Kushɛ",
+            "option2": "Tɛnki",
+            "option3": "A bɛlful",
+            "ans": 3
+        },
+        {
+            "question": "How do you say 'Stand up'",
+            "option1": "Timap",
+            "option2": "Man",
+            "option3": "Padi kusheh-O",
+            "ans": 1
+        },
+        {
+            "question": "How do you say 'What?'",
+            "option1": "Uman",
+            "option2": "Wata",
+            "option3": "Wetin",
+            "ans": 3
+        },
+        {
+            "question": "How do you say 'Snacks'",
+            "option1": "Ashɔbi",
+            "option2": "Winda",
+            "option3": "Mumunyɛrɛ",
+            "ans": 3
+        },
+        {
+            "question": "How do you say 'Trousers'",
+            "option1": "Tide",
+            "option2": "Trɔsis",
+            "option3": "Krep",
+            "ans": 2
+        },
+        {
+            "question": "How do you say 'What are you doing?'",
+            "option1": "Ala",
+            "option2": "Wetin Yu De Du",
+            "option3": "Mɔt",
+            "ans": 2
+        }
+        ],
+        "level2": [{
+            "age": 25,
+            "position": "designer"
+        },
+        {
+            "age": 30,
+            "position": "developer"
+        }]
+    },
+    "temne": {
+        "level1": [{
+            "question": "How do you say 'Hurry Up'",
+            "option1": "Bʌsər",
+            "option2": "Rʌ Fɔy",
+            "option3": "KeKe",
+            "ans": 1
+        },
+        {
+            "question": "How do you say 'Peanut'",
+            "option1": "Mɔt",
+            "option2": "Mʌ Kʌntər",
+            "option3": "Ro Kaŋ",
+            "ans": 2
+        },
+        {
+            "question": "How do you say 'Provinces'",
+            "option1": "Ro Gbaŋ",
+            "option2": "Po",
+            "option3": "Beki",
+            "ans": 1
+        },
+        {
+            "question": "How do you say 'Sit Down'",
+            "option1": "Kʌ Tis",
+            "option2": "Yirʌ",
+            "option3": "Kʌ Bo",
+            "ans": 2
+        },
+        {
+           "question": "How do you say 'I’ll be back '",
+            "option1": "Kʌ Swit",
+            "option2": "Sɛkɛ",
+            "option3": "I Tə Kʌl Der",
+            "ans": 3
+        },
+        {
+            "question": "How do you say 'I am going home'",
+            "option1": "I Kɔnɛ Ro Seth",
+            "option2": "Man",
+            "option3": "Kʌ Gbara",
+            "ans": 1
+        },
+        {
+            "question": "How do you say 'Mouth'",
+            "option1": "Uman",
+            "option2": "Kʌ Səŋ",
+            "option3": "Wath Bɛra",
+            "ans": 2
+        },
+        {
+            "question": "How do you say 'I am on my way'",
+            "option1": "Ashɔbi",
+            "option2": "Mari",
+            "option3": "I yi rə roŋ",
+            "ans": 3
+        },
+        {
+            "question": "How do you say 'Onions'",
+            "option1": "Kʌ Fənt",
+            "option2": "Kʌ Yaba",
+            "option3": "Krep",
+            "ans": 2
+        },
+        {
+            "question": "How do you say 'Tomorrow'",
+            "option1": "Ninʌŋ",
+            "option2": "Wath runi",
+            "option3": "Yathri",
+            "ans": 1
+        }
+        ],
+        "level2": [{
+            "age": 25,
+            "position": "designer"
+        },
+        {
+            "age": 30,
+            "position": "developer"
+        }]
+    }
+}

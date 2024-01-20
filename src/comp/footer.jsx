@@ -24,8 +24,8 @@ function Footer() {
       </div>
       <div className="p-5">
         <ul>
-          <p className="text-gray-800 font-bold text-2xl pb-4">Info</p>
-          <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+          <p className="text-gray-800 font-bold font-mono text-2xl pb-4">Info</p>
+          <li className="text-gray-500 text-md pb-2 font-semibold font-mono hover:text-blue-600 cursor-pointer">
             <Link to='./about'>What is Karlingo about?</Link>
               
             
