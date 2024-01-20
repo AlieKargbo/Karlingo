@@ -99,7 +99,7 @@ function K2() {
             </>}
             {result ? <>
                 <div className="h-screen flex items-center p-10 bg-gray-50 justify-center">
-                    <h2>You Scored {score} out of {kata.length}</h2>
+                    <h2>You Scored {score} out of {kdata.length}</h2>
                     <button onClick={reset} className="cursor-pointer bg-transparent border-transparent  text-blue-700 font-semibold py-2 px-4  ml-4 hover:border-blue-500 hover:border rounded font-mono  ">Reset</button>
                 </div>
             </> : <></>}
