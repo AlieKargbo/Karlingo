@@ -31,7 +31,7 @@ function Home() {
         </div>
         <div className="bg-blue-500 hover:border-blue-900 h-10 w-40 rounded-md border-2">
           <Link to="/auth?authType=signup">
-            <span className='flex justify-center pt-2 '>Getting Started</span>
+            <span className='flex justify-center pt-2 '>Get Started</span>
           </Link>
         </div>
       </div>
